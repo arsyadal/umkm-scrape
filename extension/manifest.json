@@ -1,0 +1,29 @@
+{
+  "manifest_version": 3,
+  "name": "Google Maps Radius Finder & Lead Scraper",
+  "version": "1.0.0",
+  "description": "Ekstensi Google Maps untuk mengukur radius area (KM), memfilter UMKM dalam jangkauan, dan mengunduh kontak prospek.",
+  "permissions": [
+    "activeTab",
+    "scripting",
+    "storage"
+  ],
+  "host_permissions": [
+    "https://www.google.com/maps/*",
+    "https://www.google.co.id/maps/*"
+  ],
+  "action": {
+    "default_popup": "popup.html",
+    "default_title": "Google Maps Radius Scraper"
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "https://www.google.com/maps/*",
+        "https://www.google.co.id/maps/*"
+      ],
+      "css": ["styles.css"],
+      "js": ["content.js"]
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "app.py": {
+    "mtime": 1786072779.9771397,
+    "ast_hash": "64806d2ace18bf5e5b98c220ceeeecbb",
+    "semantic_hash": "64806d2ace18bf5e5b98c220ceeeecbb"
+  },
+  "cli.py": {
+    "mtime": 1786072801.8839893,
+    "ast_hash": "ad24a079b5543ef12d012c40581b3447",
+    "semantic_hash": "ad24a079b5543ef12d012c40581b3447"
+  },
+  "scraper.py": {
+    "mtime": 1786086579.9963708,
+    "ast_hash": "c7d72dfb36ebd3489b072e5a3c828747",
+    "semantic_hash": "c7d72dfb36ebd3489b072e5a3c828747"
+  },
+  "README.md": {
+    "mtime": 1786072850.7076015,
+    "ast_hash": "a846fa607dfd69d1ab90bada4249ec7f",
+    "semantic_hash": "a846fa607dfd69d1ab90bada4249ec7f"
+  },
+  "graphify-out/converted/umkm_result_dd65f087.md": {
+    "mtime": 1786086458.3588624,
+    "ast_hash": "cbd7b68ea620d6b8e67e219999c2099a",
+    "semantic_hash": "cbd7b68ea620d6b8e67e219999c2099a"
+  }
+}
